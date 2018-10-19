@@ -22,6 +22,7 @@ class LoginForm extends Component {
                         value={this.state.email}
                     />
                 </CardSection>
+
                 <CardSection>
                     <Input
                         label='password'
@@ -31,6 +32,7 @@ class LoginForm extends Component {
                         value={this.state.password}
                     />
                 </CardSection>
+
                 <CardSection>
                     <Button onPress={this.onButtonPress.bind(this)}>
                         Log in
