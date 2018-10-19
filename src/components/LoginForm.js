@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Button, Card, CardSection, Input } from './common';
 import firebase from 'firebase';
+import { Button, Card, CardSection, Input } from './common';
 
 class LoginForm extends Component {
     state = { email: '', password: '' };
