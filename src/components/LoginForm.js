@@ -22,7 +22,7 @@ class LoginForm extends Component {
 
     onLoginFail() {
         this.setState({
-            error: 'Authentication Failes',
+            error: 'Authentication Failed',
             loading: false
         });
     }
