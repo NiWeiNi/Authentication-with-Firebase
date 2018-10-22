@@ -41,7 +41,7 @@ class App extends Component {
     render() {
         return (
             <View>
-                <Header headerText="Auth" />
+                <Header headerText="Authentication" />
                 {this.renderContent()}
             </View>
         );
